@@ -39,3 +39,4 @@ vim.keymap.set("n", "<leader>et", "<cmd>CompetiTest edit_testcase<CR>", { desc =
 --gd for going to defination
 --<C-o> to return back
 -- <leader>rn to rename a variable for intire project
+

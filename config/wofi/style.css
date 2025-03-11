@@ -1,4 +1,4 @@
-@import "/home/abdalrahman/.config/wofi/catppuccin-macchiato.css";
+@import "/home/abdo/.config/wofi/cat-macc.css";
 
 #window {
 all:unset;
@@ -68,3 +68,4 @@ color: @text;
 #text:selected {
 background-color: @surface1;
 }
+

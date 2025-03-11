@@ -92,14 +92,6 @@ button:hover {
 #pulseaudio:hover {
 	color: @yellow;
 }
-#prayer_timer {
-	padding: 2px 15px;
-	margin: 5px;
-	color: @fg;
-	background-color: @bg2;
-	border: none;
-	border-radius: 20px;
-}
 #cpu {
 	padding: 2px 15px;
 	margin: 5px;
@@ -160,4 +152,5 @@ button:hover {
 #clock:hover {
 	/* color: @yellow; */
 }
+
 

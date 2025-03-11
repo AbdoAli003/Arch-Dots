@@ -4,7 +4,7 @@
   "spacing": 1,
   "modules-left": ["custom/wlogout", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["custom/waypaper", "clock"],
-  "modules-right": ["prayer_timer","pulseaudio", "memory", "cpu", "temperature", "battery", "tray"],
+  "modules-right": ["pulseaudio", "memory", "cpu","temperature", "battery", "tray"],
 
   "hyprland/window":{
 	  "max-length": 50,
@@ -53,17 +53,14 @@
     "format": "{used}/{total}Gb "
   },
 
-  "temperature": {
+    "temperature": {
     "interval": 1,
     "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
     "critical-threshold": 90,
     "format": "{temperatureC}°C {icon}",
     "format-icons": ["", "", ""]
   },
-    
-  "prayer_timer":{
-    "file-path": "/home/abdalrahman/.src/Islamic-Prayer-Timings/next"
-  },
+
 
   "battery": {
     "bat": "BAT0",
@@ -72,7 +69,6 @@
     "format-charging": "{capacity}% 󰂄",
     "format-plugged": "{capacity}% {icon}  " ,
     "format-icons": ["", "", "", "", ""],
-    "on-click": "sudo /home/abdalrahman/.config/waybar/scripts/conservation_mode.sh"
   },
 
   "pulseaudio": {
@@ -109,3 +105,4 @@
     "interval": 2
   }
 }
+
