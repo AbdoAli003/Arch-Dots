@@ -219,3 +219,5 @@ update grub (generating grub.cfg)
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+### Asus Battery Charging Limit
+Follow instructions here : https://github.com/sreejithag/battery-charging-limiter-linux/tree/main
